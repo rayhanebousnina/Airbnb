@@ -24,3 +24,17 @@
     width: auto;
     border-radius: 2%;
 }
+.pays {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.2rem;
+}
+.categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap : 2rem;
+}

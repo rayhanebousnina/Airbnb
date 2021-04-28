@@ -12,8 +12,8 @@ const countries = [
   {countryName: 'Yasmine Hammamet' , src: 'images/countries/4.jpg'},
   {countryName: 'Hammamet Sud' , src: 'images/countries/5.jpg'},
   {countryName: 'Hergla' , src: 'images/countries/6.jpg'},
-  {countryName: 'Korba' , src: 'images/countries/6.jpg'},
-  {countryName: 'Aghir' , src: 'images/countries/7.jpg'}
+  {countryName: 'Korba' , src: 'images/countries/7.jpg'},
+  {countryName: 'Aghir' , src: 'images/countries/8.jpg'}
 ]
 
 const categories = [
@@ -50,7 +50,7 @@ function App() {
       </Container>
       <Container>
         <Row>
-          <div className="d-flex flex-wrap">
+          <div className="pays">
             <Country pays = {countries}/>
           </div>
         </Row>   
@@ -60,7 +60,7 @@ function App() {
       </Container>
       <Container>
         <Row className="d-flex justify-content-center">
-          <div className="d-flex">
+          <div className="categories">
             <Category categ = {categories}/>
           </div>
         </Row>   
@@ -83,8 +83,8 @@ function App() {
         <Row><h4>Des activités uniques avec des experts locaux, en personne ou en ligne.</h4></Row>
       </Container>
       <Container>
-        <Row className="d-flex justify-content-center">
-          <div className="d-flex">
+        <Row className="">
+          <div className="articles">
             <Article article = {articles}/>
           </div>
         </Row>  
